@@ -1,6 +1,6 @@
 options(prompt="R> ", show.signif.stars=TRUE)
 
 r <- getOption("repos")             # hard code the US repo for CRAN
-r["CRAN"] <- "http://cran.us.r-project.org"
+r["CRAN"] <- "https://cran.rstudio.com/"
 options(repos = r)
 rm(r)
